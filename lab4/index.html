@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Restoran</title>
+    <style>
+        form{
+            width: 600px;
+        margin: 0 auto;}
+    </style>
+</head>
+<body>
+
+<form action="" method="get">
+    <fieldset><p><progress max="100"></progress></p>
+        <legend>Ваші персональні дані</legend>
+
+        <p><label>Ваше ім'я</label>
+            <input type="text" pattern="\D [^0-9]"></p>
+
+        <p><label>Електронна адреса</label>
+            <input type="email" name="email" autocomplete="off" required></p>
+
+        <p><label>Номер телефону</label>
+            <input type="number"></p>
+
+        <p><label>Ваш персональний сайт</label>
+            <input type="url" placeholder="Не обов'язково"></p>
+
+        <p><label>Дата народження</label>
+            <input type="date"></p>
+
+        <p><label>Почтовий індекс</label>
+            <input type="text" pattern="[0-9]{6}"></p>
+
+        <p><label>Ваше місто</label>
+            <input list="city">
+            <datalist id="city">
+                <option>Житомир</option>
+                <option>Київ</option>
+                <option>Одесса</option>
+                <option>Вінниця</option>
+            </datalist>
+
+        <p><label>Улюблений колір</label>
+            <input type="color"></p>
+    </fieldset>
+    <p></p>
+    <fieldset><legend>Відгук</legend>
+        <p><label>Оцінка нашого ресторана</label>
+        <input type="range" name="mark" min="1" max="10" step="1"></p>
+        <p>
+            <label>Приблизна дата останього відвідування</label>
+            <input type="month">
+            <input type="week"></p>
+
+        <p><label>Відгук</label>
+            <textarea spellcheck="false"></textarea>
+        </p>
+        <p><input type="submit" name="send" >
+        </p>
+    </fieldset>
+
+
+</form>
+
+
+
+</body>
+</html>
