@@ -1,0 +1,30 @@
+h3{
+    color:green;
+    text-align: center;
+}
+.red{
+    color:red;
+}
+#pink{
+    color:deeppink;
+}
+a{
+    color:red;
+}
+[href="14"]{
+    color:deeppink;
+}
+.none{
+    list-style-type:none;
+}
+[href="15"]{
+    color:green;
+}
+
+ul.last li{
+    list-style-type: square;
+    text-decoration: none;
+}
+
+
+

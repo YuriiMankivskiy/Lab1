@@ -1,0 +1,53 @@
+#table tr {
+    width: auto;
+    height: auto;
+}
+#menu {
+    width: 200px;
+}
+#menu ul,li {
+    list-style-type: none;
+    padding: 5px;
+}
+#menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#menu a+ul a {
+    color: black;
+    display: block;
+    background-color: darkorange;
+    padding:5px;
+    margin:-5px;
+}
+#menu ul>li {
+    background-color: green;
+    margin-bottom: 2px;
+}
+#menu a+ul{
+    background-color: darkorange;
+}
+
+#table2 tr:nth-child(2n) {
+    background-color: lightgray;
+}
+#table2 tr:first-child {
+    background-color: blue;
+    color: white;
+}
+#table2 tr:last-child {
+    background-color: red;
+    color: white;
+}
+#chess table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+#chess td {
+    height: 50px;
+    width: 50px;
+}
+#chess tr:nth-child(odd) td:nth-child(2n),#chess tr:nth-child(2n) td:nth-child(odd) {
+    background-color: black;
+}

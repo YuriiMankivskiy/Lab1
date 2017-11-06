@@ -1,0 +1,8 @@
+h1 + p, h1 + p + p {
+    font-size: 20px;
+    color:red;
+}
+
+p > code {
+    color: deeppink;
+}
