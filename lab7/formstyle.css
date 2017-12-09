@@ -1,0 +1,78 @@
+form{
+    width:480px;
+    border-collapse: collapse;
+    border: 1px solid grey;
+    margin: auto;
+    text-align:right     ;
+    background: lightgrey;
+
+}
+p{
+
+    padding-left: 0;
+}
+input{
+    width: 300px;
+    background-color: yellow;
+    border-color: #FFDF00;
+}
+
+select{
+    width: 300px;
+    background-color: blue;
+    border-color: #0000FF;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    background-color:green;
+    border-color: #32CD32;
+
+}
+[type="password"]{
+
+    background-color:pink;
+    border-color: #C74375;
+}
+div p{
+    float: right;
+    text-align: left;
+    width: 312px;
+}
+div input{
+    width: 15px;
+}
+
+#ttt{
+    position: absolute;
+    left: 785px;
+    bottom: 457px;
+}
+#fff{
+    position: absolute;
+    left: 825px;
+    top: 330px;
+}
+[type="radio"]{
+    width: 107px;
+}
+
+#rrr{
+    width:20px;
+}
+#eee{
+    width:20px;
+}
+#www{
+
+    text-align: center  ;
+    width:420px;
+}
+[type="reset"]{
+    width:auto;
+    background-color:red;
+}
+[type="submit"]{
+    width: 230px;
+    background-color:green;
+}

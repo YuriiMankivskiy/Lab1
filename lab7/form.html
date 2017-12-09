@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+
+
+<form action="" method="get">
+    <fieldset>
+        <p><label>Електронный адрес:</label>
+            <input type="email" name="email"></p>
+
+        <p><label>Пароль:</label>
+            <input type="password" maxlength="25" size="40" name="password"></p>
+        <p><label>Пароль еще раз:</label>
+        <input type="password" maxlength="25" size="40" name="password"></p>
+
+        <p><label>Имя:</label>
+            <input type="text"></p>
+
+        <p><label>Фамилия:</label>
+            <input type="text"></p>
+
+        <p id="www"><label>Пол:</label>
+            <input type="radio" name="pol" id="rrr">Мужской
+            <input type="radio" name="pol" id="eee">Женский</p>
+
+        <p><label>Город:</label>
+            <select name="gorod">
+                <option selected>Житомир</option>
+                <option>Киев</option>
+                <option>Винница</option>
+                <option>Одесса</option></select>
+
+        <p><label id="fff">О себе:</label>
+            <textarea></textarea>
+        </p>
+
+
+        <p id="ttt"><label>Соглашения:</label>
+            <div>
+        <p><input type="checkbox">Получать рассылки сайта</p>
+        <p><input type="checkbox">Соглашаюсь с правилами сайта</p>
+        <p><input type="checkbox">Скрыть профиль на сайте</p>
+        </div>
+        <p><input type="submit" value="Зарегистрироваться   ">
+            <input type="reset"></p>
+
+    </fieldset>
+</form>
+</body>
+</html>

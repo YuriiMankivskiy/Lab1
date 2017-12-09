@@ -1,0 +1,9 @@
+
+#main   {
+
+    background-image: url("img/1.png"), url("img/5.png"),url("img/4.png"),url("img/2.png"),url("img/3.png"),url("img/6.png"),url("img/0.png");
+    background-position:  bottom left, 280px 360px, 900px 620px, 990px 390px, 770px 415px, 245px 224px;
+    height: 940px;
+    width: 1500px;
+    background-repeat: no-repeat;
+}

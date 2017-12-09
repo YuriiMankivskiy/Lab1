@@ -1,0 +1,84 @@
+body{
+    font-style: italic;
+}
+img{
+    border-radius:50%;
+    float: left;
+    margin: 1px;
+}
+.bef{
+    background-image: url("img/quote.png");
+    height: 20px;
+    width: 20px;
+    background-position: left top;
+
+}
+.aft{
+    background-image: url("img/quote.png");
+    height: 20px;
+    width: 20px;
+    background-position: right;
+
+}
+#main1{
+
+    text-align:left;
+    vertical-align: text-top;
+    padding: 10px;
+}
+
+.pic{
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    width: 190px;
+    float:left;
+
+
+}
+#text1{
+    float: left;
+    height: 200px;
+    width: 800px;
+    font-size: 17px;
+
+    text-align: left;
+
+}
+#text2{
+    float: left;
+    font-size: 17px;
+    font-style: italic;
+    width: 800px;
+    vertical-align: top;
+    text-align: left;
+
+}
+
+.pic2{
+    clear: both;
+    text-align:left;
+    font-style: italic;
+    font-size: 12px;
+    width: 190px;
+    float:left;
+
+
+}
+.first{
+
+    text-align: right;
+}
+
+
+
+.pod{
+    float: inherit;
+
+}
+#main2{
+    padding: 10px;
+
+    text-align:left;
+    vertical-align: text-top;
+}
